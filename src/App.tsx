@@ -39,6 +39,17 @@ export default class App extends React.Component<IAppProps> {
               color="blue"
             />
           </Grid.Row>
+
+<Grid.Row centered>
+<Button content='This buttons text color will change'
+/>
+</Grid.Row>
+<Grid.Row centered>
+<h3>Current Count Value: 0</h3>
+/>
+</Grid.Row>
+
+
           <Grid.Row centered>
             <Button content="Button Text Color Change when clicked"
             onClick={() => this.buttonTextColorChange()}
